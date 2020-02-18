@@ -30,8 +30,8 @@ const options = {
 function preload() {
   // This parses the JSON text file into a Javascript Object
   // zone = loadJSON("data/zone.geo.json");
-  PopStart = loadSound('Sound/startPop.wav');
-  Pop = loadSound('Sound/popUp.wav');
+  PopStart = loadSound('startPop.wav');
+  Pop = loadSound('popUp.wav');
   Welcome = loadSound('welcome.wav');
 }
 
